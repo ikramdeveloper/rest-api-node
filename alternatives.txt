@@ -1,0 +1,34 @@
+******************** for controllers/users.controller.js file *****************
+// ***** Asynchronously getting data using fsPromises
+
+// const getUserData = async () => {
+//   try {
+//     const data = await fsPromises.readFile(
+//       path.join(__dirname, "..", "users.json"),
+//       "utf-8"
+//     );
+//     return JSON.parse(data);
+//   } catch (err) {
+//     console.error(err);
+//   }
+// };
+
+// getUserData().then((data) => {
+//   users = [...data];
+//   console.log(users);
+// });
+
+
+
+******************** for routes/users.router.js file *****************
+// ***** Using routes in more explainable way
+
+// router.get("/", getUsers);
+
+// router.get("/:id", getUserById);
+
+// router.post("/", addUser);
+
+// router.patch("/:id", updateUser);
+
+// router.delete("/:id", deleteUser);
